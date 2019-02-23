@@ -9,6 +9,7 @@
             <li><router-link to="/coupon" class="nav-link">优惠券管理</router-link></li>
             <li><router-link to="/questionnaire" class="nav-link">问卷管理</router-link></li>
             <li><router-link to="/analysis" class="nav-link">数据统计</router-link></li>
+            <li><router-link to="/text" class="nav-link">富文本编辑器</router-link></li>
         </ul>
       </nav>
   </header>

@@ -8,6 +8,8 @@ import CouponHandle from './components/Marketing/CouponHandle'
 import QuestionnaireDetails from "./components/Marketing/QuestionnaireDetails";
 import QuestionnaireHandle from "./components/Marketing/QuestionnaireHandle";
 
+import Text from './components/Marketing/Text'
+
 export const routes = [
     { path: '/', component: Home },
 
@@ -19,5 +21,8 @@ export const routes = [
     { path: '/questionnaire/handle', component: QuestionnaireHandle },
 
     { path: '/analysis', component: Analysis },
+
+    { path: '/text', component: Text},
+
     { path: '*', redirect: '/' }
 ]
